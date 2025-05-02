@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Relief:wght@400;700&display=swap');
+* {
+  font-family: cosmic-relief, sans-serif;
+}
+body {
+  min-height: 75rem;
+  padding-top: 4.5rem;
+}
+.card-img-top {
+  width: 100%;
+  height: 15rem;
+  object-fit: cover;
+}
+.cardfix2, .cardfix {
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  height: 100%; /* Ensures both cards have the same height */
+  display: flex; /* Aligns content consistently */
+  flex-direction: column; /* Ensures consistent layout */
+}
+
+.navbar{
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+/* .card {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-body {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+} */

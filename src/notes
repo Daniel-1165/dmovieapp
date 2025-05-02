@@ -1,0 +1,42 @@
+<!-- <div>
+      <h3 className="p-4 mt-5">{title }</h3>  
+      <main className="container">
+    {title == "Home of Movies" &&(
+    <>
+      <div className="bg-body-tertiary rounded-3 p-3 my-4">
+        <h1 className="my-4">Welcome to the Home of Movies</h1>
+        <p className="lead">Discover the latest and greatest movies here!</p>
+      </div>
+      <button className='btn btn-primary' onClick={() => navigator('/movies/popular')}>Go Somewhere</button>
+      <div className="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4 py-2">
+        {movies.map((movie) => (
+          
+            <Card movie={movie} key={movie.id} />
+          
+        ))}
+      </div>
+    
+    )}
+        {/* {title == "Popular Movies" && (
+            <div className="bg-body-tertiary rounded-3 p-3 my-4">
+                <h1>Check out the most popular movies</h1>
+                <p className="lead">Find out what everyone is watching!</p>
+            </div>
+        )}
+        {title == "Upcoming Movies" && (
+            <div className="bg-body-tertiary rounded-3 p-3 my-4">
+          <h1>Don't miss the upcoming movies!</h1>
+                <p className="lead">Stay tuned for the latest releases!</p>
+            </div>
+        )}
+        {title == "Top Rated Movies" && (
+            <div className="bg-body-tertiary rounded-3 p-3 my-4">
+                <h1>Explore the top rated movies!</h1>
+                <p className="lead">Check out the best of the best!</p>
+            </div>
+        )} */} -->
+        
+        
+      </main>
+    </div>
+  );
