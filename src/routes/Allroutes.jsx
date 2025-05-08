@@ -9,7 +9,7 @@ const Allroutes = () => {
   return (
     <div>
         <Routes>
-            <Route path='/' element={<Movielist title="Home of Movies" apiPath='movie/now_playing' />} /> 
+            <Route path='/dmovieapp' element={<Movielist title="Home of Movies" apiPath='movie/now_playing' />} /> 
             <Route path='movies/popular' element={<Movielist title="Popular Movies" apiPath='movie/popular' />} /> 
             <Route path='movies/top' element={<Movielist title="Top Rated Movies" apiPath='movie/top_rated' />} /> 
             <Route path='movies/upcoming' element={<Movielist title="Upcoming Movies" apiPath='movie/upcoming' />} /> 
