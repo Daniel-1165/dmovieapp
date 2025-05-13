@@ -1,42 +1,31 @@
-<!-- <div>
-      <h3 className="p-4 mt-5">{title }</h3>  
-      <main className="container">
-    {title == "Home of Movies" &&(
-    <>
-      <div className="bg-body-tertiary rounded-3 p-3 my-4">
-        <h1 className="my-4">Welcome to the Home of Movies</h1>
-        <p className="lead">Discover the latest and greatest movies here!</p>
-      </div>
-      <button className='btn btn-primary' onClick={() => navigator('/movies/popular')}>Go Somewhere</button>
-      <div className="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4 py-2">
-        {movies.map((movie) => (
-          
-            <Card movie={movie} key={movie.id} />
-          
-        ))}
-      </div>
-    
-    )}
-        {/* {title == "Popular Movies" && (
-            <div className="bg-body-tertiary rounded-3 p-3 my-4">
-                <h1>Check out the most popular movies</h1>
-                <p className="lead">Find out what everyone is watching!</p>
-            </div>
-        )}
-        {title == "Upcoming Movies" && (
-            <div className="bg-body-tertiary rounded-3 p-3 my-4">
-          <h1>Don't miss the upcoming movies!</h1>
-                <p className="lead">Stay tuned for the latest releases!</p>
-            </div>
-        )}
-        {title == "Top Rated Movies" && (
-            <div className="bg-body-tertiary rounded-3 p-3 my-4">
-                <h1>Explore the top rated movies!</h1>
-                <p className="lead">Check out the best of the best!</p>
-            </div>
-        )} */} -->
-        
-        
-      </main>
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Features</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Pricing</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Dropdown link
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+      </ul>
     </div>
-  );
+  </div>
+</nav>

@@ -12,7 +12,6 @@ const Header = () => {
     };
 
     return (
-        <div className="container-fluid mb-5">
             <nav className="navbar navbar-expand-lg navbar-light bg-light fixed-top">
                 <div className="container-fluid">
                     <NavLink className="navbar-brand" to="/">CineScope Movies</NavLink>
@@ -55,7 +54,7 @@ const Header = () => {
                     </div>
                 </div>
             </nav>
-        </div>
+
     );
 };
 
