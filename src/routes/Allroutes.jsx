@@ -15,7 +15,6 @@ const Allroutes = () => {
             <Route path='movies/upcoming' element={<Movielist title="Upcoming Movies" apiPath='movie/upcoming' />} /> 
             <Route path='search' element={<Search apiPath='search/movie' />} />
             <Route path='/movie/:id' element={<Details/>} />
-
         </Routes>
     </div>
   )
